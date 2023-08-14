@@ -11,4 +11,16 @@
     <PackageReference Include="SFML.Net" Version="2.5.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Graphics\background.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Graphics\enemy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Graphics\player.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
